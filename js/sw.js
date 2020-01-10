@@ -3,23 +3,23 @@ console.log('service worker running');
 const cacheStorName = 'cacher-v33';
 // tout ce qu'il y a a faire cache
 const filesToCache = [
-  '../css/styles.css',
-  '../data/restaurants.json',
-  '../img/1.jpg',
-  '../img/2.jpg',
-  '../img/3.jpg',
-  '../img/4.jpg',
-  '../img/5.jpg',
-  '../img/6.jpg',
-  '../img/7.jpg',
-  '../img/8.jpg',
-  '../img/9.jpg',
-  '../img/10.jpg',
-  '../js/dbhelper.js',
-  '../js/main.js',
-  '../js/restaurant_info.js',
-  '../index.html',
-  '../restaurant.html'
+  'https://sapolor.github.io/sd140-restaurant-final-project/css/styles.css',
+  'https://sapolor.github.io/sd140-restaurant-final-project/data/restaurants.json',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/1.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/2.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/3.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/4.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/5.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/6.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/7.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/8.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/9.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/img/10.jpg',
+  'https://sapolor.github.io/sd140-restaurant-final-project/js/dbhelper.js',
+  'https://sapolor.github.io/sd140-restaurant-final-project/js/main.js',
+  'https://sapolor.github.io/sd140-restaurant-final-project/js/restaurant_info.js',
+  'https://sapolor.github.io/sd140-restaurant-final-project/index.html',
+  'https://sapolor.github.io/sd140-restaurant-final-project/restaurant.html'
 ]
 // 
 // 3 events.

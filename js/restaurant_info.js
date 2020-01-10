@@ -35,6 +35,7 @@ initMap = () => {
   });
 }  
  
+/**
  window.initMap = () => {
   fetchRestaurantFromURL((error, restaurant) => {
     if (error) { // Got an error!
@@ -50,6 +51,7 @@ initMap = () => {
     }
   });
 }
+*/
 
 /**
  * Get current restaurant from page URL.

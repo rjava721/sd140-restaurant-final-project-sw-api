@@ -1,4 +1,3 @@
-console.log('service worker running');
 // version name
 const cacheStorName = 'cacher-v33';
 // tout ce qu'il y a a faire cache
@@ -26,11 +25,9 @@ const filesToCache = [
 // 'install', 'activate', 'fetch'
 
 self.addEventListener('install', event => {
-  console.log('install event launched');
   event.waitUntil( 
     caches.open(cacheStorName)
     .then((cacheStorage) => {
-      console.log(cacheStorage);
       return cacheStorage.addAll(filesToCache);
     })
     .catch(error => 'something went wrong %0' + error)
@@ -38,7 +35,6 @@ self.addEventListener('install', event => {
 })
 
 self.addEventListener('activate', event => {
-  console.log('activate event launched');
   event.waitUntil(
     caches.keys()
     .then((browserCaches) => {

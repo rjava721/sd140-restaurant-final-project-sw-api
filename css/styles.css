@@ -288,13 +288,14 @@ nav h1 a {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    width: 100%;
     height: auto;
   }
 }
 
 @media only screen and (max-width: 800px) {
   #restaurants-list li {
-    width: 300px;
+    width: 100%;
     height: auto;
   } 
 }
@@ -303,6 +304,7 @@ nav h1 a {
 @media only screen and (max-width: 699px) {
   #restaurants-list li {
     justify-content: space-evenly;
+    width: 100%;
     height: auto;
   } 
 }
